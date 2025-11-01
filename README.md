@@ -5,7 +5,7 @@ IDS combines the **space efficiency of Depth-First Search (DFS)** with the **com
 
 ---
 
-## 🔍 How It Works
+## How It Works
 
 The algorithm repeatedly performs **Depth-Limited Search (DLS)** with increasing depth limits.  
 At each depth, it explores the search tree up to that limit before increasing the depth by one.
