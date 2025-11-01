@@ -38,3 +38,12 @@ def iterative_deepening_search(start,goal,graph,depth_max = 50):
 
     print("Goal node not found :(")
     return None
+
+if __name__ == "__main__":
+    path = iterative_deepening_search(start_node, goal_node, graph)
+
+    if path:
+        print(f"Path found: {path}")
+    else:
+        print("No path found")
+    
